@@ -6,7 +6,7 @@ sudo mv -f os-release /etc
 sudo cp swordos.svg /usr/local/share/icons/hicolor/scalable/apps/swordos.svg
 
 #fastfetch
-mv config.jsonc hardware.sh memory.sh software.sh time.sh ~/.config/fastfetch/
+mv -f fastfetch .config/
 
 #Обнови кэш KDE
 kbuildsycoca6 --noincremental

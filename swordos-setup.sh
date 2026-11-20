@@ -1,9 +1,9 @@
 
 #sword-branding
-sudo mkdir -p /etc/sword-branding && sudo mv logo.png /etc/sword-branding/
-sudo mv kcm-about-distrorc /etc/xdg/kcm-about-distrorc
-sudo mv -f os-release /etc
-sudo cp swordos.svg /usr/local/share/icons/hicolor/scalable/apps/swordos.svg
+sudo mv sword-branding etc/
+sudo mv kcm-about-distrorc etc/xdg/
+sudo mv -f os-release etc/
+sudo mv swordos.svg usr/local/share/icons/hicolor/scalable/apps/
 
 #fastfetch
 mv -f fastfetch .config/

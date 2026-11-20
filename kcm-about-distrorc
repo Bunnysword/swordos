@@ -1,0 +1,7 @@
+[General]
+Name=Sword OS
+Version=1.0
+Variant=
+LogoPath=/etc/sword-branding/logo.png
+Website=https://github.com/Bunnysword
+UseOSReleaseVersion=false
